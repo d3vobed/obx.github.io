@@ -1,14 +1,15 @@
-__  __  __
-\ \ \ \ \/
- \ \/\ \
-  \/  \/
+
+_ ___ __ _   ____
+|        |  |    \     \  /
+|        |  |_____|     \/
+|_ ___ __|  |_____|    /  \
 
 The humans.txt file explains the team, technology,
 and graphic assets behind this site humanstxt.org.
 
 _______________________________________________________________________________
 
-DESIGNER | デザイナー
+DESIGNER/ OWNER | デザイナー
 
 Hamish Williams
 Hand crafted design & web development
