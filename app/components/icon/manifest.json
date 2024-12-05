@@ -19,7 +19,7 @@
     "width": 24,
     "height": 24
   },
-  "figma": {
+  "youtube": {
     "width": 24,
     "height": 24
   },
@@ -55,7 +55,43 @@
     "width": 24,
     "height": 24
   },
-  "bluesky": {
+  "twitter": {
+    "width": 24,
+    "height": 24
+  },
+  "google": {
+    "width": 24,
+    "height": 24
+  },
+  "linkedin": {
+    "width": 24,
+    "height": 24
+  },
+  "mediun": {
+    "width": 24,
+    "height": 24
+  },
+  "gitlab": {
+    "width": 24,
+    "height": 24
+  },
+  "hackerone": {
+    "width": 24,
+    "height": 24
+  },
+  "bugcrowd": {
+    "width": 24,
+    "height": 24
+  },
+  "tryhackme": {
+    "width": 5,
+    "height": 5
+  },
+  "hackthebox": {
+    "width": 24,
+    "height": 24
+  },
+  "blender": {
     "width": 24,
     "height": 24
   }
