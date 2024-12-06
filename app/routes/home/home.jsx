@@ -103,8 +103,8 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="Designing the future of education"
-        description="Designing a platform to help educators build better online courseware"
+        title="Designing the future of real estate interactivity"
+        description="A platform to help real estate agents to preview and analyze stonerockers NG services."
         buttonText="View project"
         buttonLink="/projects/smart-sparrow"
         model={{
