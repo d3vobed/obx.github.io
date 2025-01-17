@@ -43,7 +43,7 @@ export const socialLinks = [
     icon: 'gitlab',
   },  {
     label: 'hackerone',
-    url: `https://hackerone.com/obx${config.hackerone}?type=user`,
+    url: `https://hackerone.com/${config.hackerone}?type=user`,
     icon: 'hackerone',
   },
     {
