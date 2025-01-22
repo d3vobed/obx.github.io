@@ -124,8 +124,8 @@ export const Home = () => {
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="Video game progress tracking"
-        description="Design and development for a video game tracking app built in React Native"
+        title="Freelancing mobile platform for africans"
+        description="Work from anywhere, Get the freedom you deserve with gigafro.com"
         buttonText="View website"
         buttonLink="https://gamestack.hamishw.com"
         model={{
@@ -148,8 +148,73 @@ export const Home = () => {
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="Biomedical image collaboration"
-        description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
+        title="Scaling frontend UI designs for icondigital edge "
+        description="Your Brand, Our Canvas"
+        buttonText="View project"
+        buttonLink="/projects/slice"
+        model={{
+          type: 'laptop',
+          alt: 'Annotating a biomedical image in the Slice app',
+          textures: [
+            {
+              srcSet: `${sliceTexture} 800w, ${sliceTextureLarge} 1920w`,
+              placeholder: sliceTexturePlaceholder,
+            },
+          ],
+        }}
+      />
+       <ProjectSummary
+        id="project-2"
+        alternate
+        sectionRef={projectTwo}
+        visible={visibleSections.includes(projectTwo.current)}
+        index={2}
+        title="Mobile security framwork & C2 "
+        description="Metasploit but for mobile exploits and C2 service to manage your hosts"
+        buttonText="View website"
+        buttonLink="https://gamestack.hamishw.com"
+        model={{
+          type: 'phone',
+          alt: 'App login screen',
+          textures: [
+            {
+              srcSet: `${gamestackTexture} 375w, ${gamestackTextureLarge} 750w`,
+              placeholder: gamestackTexturePlaceholder,
+            },
+            {
+              srcSet: `${gamestackTexture2} 375w, ${gamestackTexture2Large} 750w`,
+              placeholder: gamestackTexture2Placeholder,
+            },
+          ],
+        }}
+      />
+      <ProjectSummary
+        id="project-3"
+        sectionRef={projectThree}
+        visible={visibleSections.includes(projectThree.current)}
+        index={3}
+        title="Unity 3d game dev with aws cloud integration- 234Games"
+        description="WebGL based games on unity, C# & blazor web assembly, 2-3-4 players games simulates the real exictment of playing with friends just as roblux."
+        buttonText="View project"
+        buttonLink="/projects/slice"
+        model={{
+          type: 'laptop',
+          alt: 'Annotating a biomedical image in the Slice app',
+          textures: [
+            {
+              srcSet: `${sliceTexture} 800w, ${sliceTextureLarge} 1920w`,
+              placeholder: sliceTexturePlaceholder,
+            },
+          ],
+        }}
+      />
+      <ProjectSummary
+        id="project-3"
+        sectionRef={projectThree}
+        visible={visibleSections.includes(projectThree.current)}
+        index={3}
+        title="3D animated movie in blender, maya, 3ds max, houdini & sora "
+        description="Cybersecurity awareness short movie on IOS & NSO devices"
         buttonText="View project"
         buttonLink="/projects/slice"
         model={{

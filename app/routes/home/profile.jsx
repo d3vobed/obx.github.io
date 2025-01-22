@@ -21,15 +21,13 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I’m Hamish, currently I live in Sydney working as a senior product designer at{' '}
-      <Link href="https://www.qwilr.com">Qwilr</Link>. My projects include UX design, UI
-      animations, and icon illustration. Being comfortable with code allows me to rapidly
-      prototype and validate experiences. If you’re interested in the tools and software I
-      use check out my <Link href="/uses">uses page</Link>.
+      I’m Obed, currently I live in Nigeria working part-time as a Mobile Developer & Security Engineer  at{' '}
+      <Link href="https://www.gigafro.com">Gigafro</Link>. My fields include Web & mobile developement, application security, devops(AWS,Azure & cloudfront), low level software & unreal-engine dev, arduino/hardware enthusiast, drone piloting, windows internals, photography & 3d visual effects. Being comfortable with code allows me to rapidly
+      prototype and validate experiences. If you’re interested what i do check out my portfolio page <Link href="/uses">click me(xss)</Link>.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      In my spare time I like to practice Brazilian Jiu Jitsu, play video games, and{' '}
-      <Link href="/projects/volkihar-knight">make mods</Link>. I’m always down for hearing
+      In my spare time I like to practice hacking with ctfs, bug hunting, storyboard for my short movies , play FC25, and{' '}
+      <Link href="/projects/volkihar-knight">research on AGIs & ML</Link>. I’m always down for hearing
       about new projects, so feel free to drop me a line.
     </Text>
   </Fragment>
