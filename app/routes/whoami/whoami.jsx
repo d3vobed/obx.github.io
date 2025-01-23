@@ -15,6 +15,7 @@ import { media } from '~/utils/style';
 import katakana from '../home/katakana.svg';
 import styles from './whoami.module.css';
 
+
 const WhoamiText = ({ visible, titleId }) => (
   <Fragment>
     <Heading className={styles.title} data-visible={visible} level={3} id={titleId}>
