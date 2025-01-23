@@ -143,7 +143,7 @@ export const ProjectSectionContent = ({ className, width = 'l', ...rest }) => (
   />
 );
 
-export const ProjectSectionHeading = ({ className, level = 3, as = 'h2', ...rest }) => (
+export const ProjectSectionHeading = ({ className, level = 5, as = 'h2', ...rest }) => (
   <Heading
     className={classes(styles.sectionHeading, className)}
     as={as}

@@ -1,3 +1,9 @@
+import iphoneTexture2Large from '~/assets/slice-game.jpg.jpg';
+import iphoneTexture2Placeholder from '~/assets/gamestack-list-placeholder.jpg';
+import iphoneTexture2 from '~/assets/slice-game.jpg.jpg';
+import iphoneTextureLarge from '~/assets/slice-game.jpg.jpg';
+import iphoneTexturePlaceholder from '~/assets/gamestack-login-placeholder.jpg';
+import iphoneTexture from '~/assets/slice-game.jpg.jpg';
 import phoneTexture2Large from '~/assets/gamestack-list-large.jpg';
 import phoneTexture2Placeholder from '~/assets/gamestack-list-placeholder.jpg';
 import phoneTexture2 from '~/assets/gamestack-list.jpg';
@@ -38,6 +44,34 @@ export const Phone = () => (
           texture: {
             srcSet: `${phoneTexture2} 375w, ${phoneTexture2Large} 750w`,
             placeholder: phoneTexture2Placeholder,
+          },
+        },
+      ]}
+    />
+  </StoryContainer>
+);
+
+export const iphone = () => (
+  <StoryContainer padding={0}>
+    <Model
+      style={modelStyle}
+      cameraPosition={{ x: 0, y: 0, z: 11.5 }}
+      alt="iphone models"
+      models={[
+        {
+          ...deviceModels.iphone,
+          position: { x: -0.6, y: 0.8, z: 0.1 },
+          texture: {
+            srcSet: `${iphoneTexture} 375w, ${iphoneTextureLarge} 750w`,
+            placeholder: iphoneTexturePlaceholder,
+          },
+        },
+        {
+          ...deviceModels.iphone,
+          position: { x: 0.6, y: -0.8, z: 0.4 },
+          texture: {
+            srcSet: `${iphoneTexture2} 375w, ${iphoneTexture2Large} 750w`,
+            placeholder: iphoneTexture2Placeholder,
           },
         },
       ]}

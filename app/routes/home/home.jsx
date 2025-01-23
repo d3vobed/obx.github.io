@@ -7,9 +7,22 @@ import gamestackTexture from '~/assets/gamestack-login.jpg';
 import sliceTextureLarge from '~/assets/slice-app-large.jpg';
 import sliceTexturePlaceholder from '~/assets/slice-app-placeholder.jpg';
 import sliceTexture from '~/assets/slice-app.jpg';
+import iphoneTexture2Placeholder from '~/assets/blender-short.jpg';
+import iphoneTexture2 from '~/assets/blender-short.jpg';
+import iphoneTexturePlaceholder from '~/assets/gamestack-login-placeholder.jpg';
+import iphoneTexture from '~/assets/blender-short.jpg';
+import NintendoslideTexture from '~/assets/slice-game.jpg';
+import NintendoslideTextureLarge from '~/assets/slice-game.jpg';
+import NintendoslideTexturePlaceholder from '~/assets/spr-lesson-builder-dark-placeholder.jpg';
 import sprTextureLarge from '~/assets/spr-lesson-builder-dark-large.jpg';
 import sprTexturePlaceholder from '~/assets/spr-lesson-builder-dark-placeholder.jpg';
 import sprTexture from '~/assets/spr-lesson-builder-dark.jpg';
+import spr1TextureLarge from '~/assets/mobile-framework.jpg';
+import spr1TexturePlaceholder from '~/assets/gamestack-login.jpg';
+import spr1Texture from '~/assets/mobile-framework-set.jpg';
+import spr2TextureLarge from '~/assets/mobile-framework.jpg';
+import spr2TexturePlaceholder from '~/assets/gamestack-login.jpg';
+import spr2Texture from '~/assets/mobile-framework.jpg';
 import { Footer } from '~/components/footer';
 import { baseMeta } from '~/utils/meta';
 import { Intro } from './intro';
@@ -53,10 +66,13 @@ export const Home = () => {
   const projectOne = useRef();
   const projectTwo = useRef();
   const projectThree = useRef();
+  const projectFour = useRef();
+  const projectFive = useRef();
+  const projectSix = useRef();
   const details = useRef();
 
   useEffect(() => {
-    const sections = [intro, projectOne, projectTwo, projectThree, details];
+    const sections = [intro, projectOne, projectTwo, projectThree, projectFour, projectFive, projectSix, details];
 
     const sectionObserver = new IntersectionObserver(
       (entries, observer) => {
@@ -105,8 +121,8 @@ export const Home = () => {
         index={1}
         title="Designing the future of real estate interactivity"
         description="A platform to help real estate agents to preview and analyze stonerockers NG services."
-        buttonText="View project"
-        buttonLink="/projects/smart-sparrow"
+        buttonText="View website"
+        buttonLink="https://stonerockers.com/"
         model={{
           type: 'laptop',
           alt: 'Smart Sparrow lesson builder',
@@ -127,7 +143,7 @@ export const Home = () => {
         title="Freelancing mobile platform for africans"
         description="Work from anywhere, Get the freedom you deserve with gigafro.com"
         buttonText="View website"
-        buttonLink="https://gamestack.hamishw.com"
+        buttonLink="https://gigafro.com/"
         model={{
           type: 'phone',
           alt: 'App login screen',
@@ -150,8 +166,8 @@ export const Home = () => {
         index={3}
         title="Scaling frontend UI designs for icondigital edge "
         description="Your Brand, Our Canvas"
-        buttonText="View project"
-        buttonLink="/projects/slice"
+        buttonText="View website"
+        buttonLink="https://icondigitaledge.com/"
         model={{
           type: 'laptop',
           alt: 'Annotating a biomedical image in the Slice app',
@@ -164,66 +180,70 @@ export const Home = () => {
         }}
       />
        <ProjectSummary
-        id="project-2"
+        id="project-4"
         alternate
-        sectionRef={projectTwo}
-        visible={visibleSections.includes(projectTwo.current)}
-        index={2}
+        sectionRef={projectFour}
+        visible={visibleSections.includes(projectFour.current)}
+        index={4}
         title="Mobile security framwork & C2 "
         description="Metasploit but for mobile exploits and C2 service to manage your hosts"
-        buttonText="View website"
-        buttonLink="https://gamestack.hamishw.com"
+        buttonText="Github"
+        buttonLink="https://github.com/R3syst/kono_ui"
         model={{
           type: 'phone',
           alt: 'App login screen',
           textures: [
             {
-              srcSet: `${gamestackTexture} 375w, ${gamestackTextureLarge} 750w`,
-              placeholder: gamestackTexturePlaceholder,
+              srcSet: `${spr1Texture} 375w, ${spr1TextureLarge} 750w`,
+              placeholder: spr1TexturePlaceholder,
             },
             {
-              srcSet: `${gamestackTexture2} 375w, ${gamestackTexture2Large} 750w`,
-              placeholder: gamestackTexture2Placeholder,
+              srcSet: `${spr2Texture} 375w, ${spr2TextureLarge} 750w`,
+              placeholder: spr2TexturePlaceholder,
             },
           ],
         }}
       />
       <ProjectSummary
-        id="project-3"
-        sectionRef={projectThree}
-        visible={visibleSections.includes(projectThree.current)}
-        index={3}
-        title="Unity 3d game dev with aws cloud integration- 234Games"
+        id="project-5"
+        sectionRef={projectFive}
+        visible={visibleSections.includes(projectFive.current)}
+        index={5}
+        title="Unity 3D with AWS integration – 234Games"
         description="WebGL based games on unity, C# & blazor web assembly, 2-3-4 players games simulates the real exictment of playing with friends just as roblux."
         buttonText="View project"
         buttonLink="/projects/slice"
         model={{
           type: 'laptop',
-          alt: 'Annotating a biomedical image in the Slice app',
+          alt: '234 games console',
           textures: [
             {
-              srcSet: `${sliceTexture} 800w, ${sliceTextureLarge} 1920w`,
-              placeholder: sliceTexturePlaceholder,
+              srcSet: `${NintendoslideTexture} 400w, ${NintendoslideTextureLarge} 920w`,
+              placeholder: NintendoslideTexturePlaceholder,
             },
           ],
         }}
       />
       <ProjectSummary
-        id="project-3"
-        sectionRef={projectThree}
-        visible={visibleSections.includes(projectThree.current)}
-        index={3}
+        id="project-6"
+        sectionRef={projectSix}
+        visible={visibleSections.includes(projectSix.current)}
+        index={6}
         title="3D animated movie in blender, maya, 3ds max, houdini & sora "
         description="Cybersecurity awareness short movie on IOS & NSO devices"
         buttonText="View project"
         buttonLink="/projects/slice"
         model={{
-          type: 'laptop',
+          type: 'phone',
           alt: 'Annotating a biomedical image in the Slice app',
           textures: [
             {
-              srcSet: `${sliceTexture} 800w, ${sliceTextureLarge} 1920w`,
-              placeholder: sliceTexturePlaceholder,
+              srcSet: `${iphoneTexture} 1280w, ${iphoneTexture} 2560w`,
+              placeholder: iphoneTexture2Placeholder,
+            },
+            {
+              srcSet: `${iphoneTexture2} 375w, ${iphoneTexture} 750w`,
+              placeholder: iphoneTexturePlaceholder,
             },
           ],
         }}

@@ -6,17 +6,22 @@ export const navLinks = [
     pathname: '/#project-1',
   },
   {
-    label: 'Details',
-    pathname: '/#details',
+    label: 'Portfolio',
+    pathname: '/#portfolio',
   },
   {
-    label: 'Articles',
-    pathname: '/articles',
+    label: 'Blog',
+    pathname: '/blog',
+  },
+  {
+    label: 'Tags',
+    pathname: '/tags',
   },
   {
     label: 'Contact',
     pathname: '/contact',
   },
+  
 ];
 
 export const socialLinks = [
