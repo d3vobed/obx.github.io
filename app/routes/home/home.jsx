@@ -11,9 +11,6 @@ import iphoneTexture2Placeholder from '~/assets/blender-short.jpg';
 import iphoneTexture2 from '~/assets/blender-short.jpg';
 import iphoneTexturePlaceholder from '~/assets/gamestack-login-placeholder.jpg';
 import iphoneTexture from '~/assets/blender-short.jpg';
-import NintendoslideTexture from '~/assets/slice-game.jpg';
-import NintendoslideTextureLarge from '~/assets/slice-game.jpg';
-import NintendoslideTexturePlaceholder from '~/assets/spr-lesson-builder-dark-placeholder.jpg';
 import sprTextureLarge from '~/assets/spr-lesson-builder-dark-large.jpg';
 import sprTexturePlaceholder from '~/assets/spr-lesson-builder-dark-placeholder.jpg';
 import sprTexture from '~/assets/spr-lesson-builder-dark.jpg';
@@ -54,8 +51,8 @@ export const links = () => {
 
 export const meta = () => {
   return baseMeta({
-    title: 'Designer + Developer',
-    description: `Design portfolio of ${config.name} — a product designer working on web & mobile apps with a focus on motion, experience design, and accessibility.`,
+    title: 'Developer + Hacker + Designer',
+    description: `Design article of ${config.name} — a cyber security expert working on web & mobile apps with a focus on motion, experience design, and accessibility.`,
   });
 };
 
@@ -67,12 +64,11 @@ export const Home = () => {
   const projectTwo = useRef();
   const projectThree = useRef();
   const projectFour = useRef();
-  const projectFive = useRef();
   const projectSix = useRef();
   const details = useRef();
 
   useEffect(() => {
-    const sections = [intro, projectOne, projectTwo, projectThree, projectFour, projectFive, projectSix, details];
+    const sections = [intro, projectOne, projectTwo, projectThree, projectFour, projectSix, details];
 
     const sectionObserver = new IntersectionObserver(
       (entries, observer) => {
@@ -125,7 +121,7 @@ export const Home = () => {
         buttonLink="https://stonerockers.com/"
         model={{
           type: 'laptop',
-          alt: 'Smart Sparrow lesson builder',
+          alt: 'Real estate platform',
           textures: [
             {
               srcSet: `${sprTexture} 1280w, ${sprTextureLarge} 2560w`,
@@ -146,7 +142,7 @@ export const Home = () => {
         buttonLink="https://gigafro.com/"
         model={{
           type: 'phone',
-          alt: 'App login screen',
+          alt: 'Gigafro freelancing platform',
           textures: [
             {
               srcSet: `${gamestackTexture} 375w, ${gamestackTextureLarge} 750w`,
@@ -170,7 +166,7 @@ export const Home = () => {
         buttonLink="https://icondigitaledge.com/"
         model={{
           type: 'laptop',
-          alt: 'Annotating a biomedical image in the Slice app',
+          alt: 'Digital Edge website',
           textures: [
             {
               srcSet: `${sliceTexture} 800w, ${sliceTextureLarge} 1920w`,
@@ -204,38 +200,19 @@ export const Home = () => {
           ],
         }}
       />
-      <ProjectSummary
-        id="project-5"
-        sectionRef={projectFive}
-        visible={visibleSections.includes(projectFive.current)}
-        index={5}
-        title="Unity 3D with AWS integration – 234Games"
-        description="WebGL based games on unity, C# & blazor web assembly, 2-3-4 players games simulates the real exictment of playing with friends just as roblux."
-        buttonText="View project"
-        buttonLink="/projects/slice"
-        model={{
-          type: 'laptop',
-          alt: '234 games console',
-          textures: [
-            {
-              srcSet: `${NintendoslideTexture} 400w, ${NintendoslideTextureLarge} 920w`,
-              placeholder: NintendoslideTexturePlaceholder,
-            },
-          ],
-        }}
-      />
+    
       <ProjectSummary
         id="project-6"
         sectionRef={projectSix}
         visible={visibleSections.includes(projectSix.current)}
-        index={6}
-        title="3D animated movie in blender, maya, 3ds max, houdini & sora "
+        index={5}
+        title="Animated short movie made with blender, 3ds max & houdini"
         description="Cybersecurity awareness short movie on IOS & NSO devices"
         buttonText="View project"
         buttonLink="/projects/slice"
         model={{
-          type: 'phone',
-          alt: 'Annotating a biomedical image in the Slice app',
+          type: 'laptop',
+          alt: 'Short movie made with blender',
           textures: [
             {
               srcSet: `${iphoneTexture} 1280w, ${iphoneTexture} 2560w`,

@@ -7,11 +7,11 @@ export const navLinks = [
   },
   {
     label: 'Portfolio',
-    pathname: '/#portfolio',
+    pathname: '/whoami',
   },
   {
     label: 'Blog',
-    pathname: '/blog',
+    pathname: '/articles',
   },
   {
     label: 'Tags',
