@@ -14,22 +14,51 @@ import { Fragment, useState } from 'react';
 import { media } from '~/utils/style';
 import katakana from '../home/katakana.svg';
 import styles from './whoami.module.css';
+import { Footer } from '~/components/footer';
+
 
 
 const WhoamiText = ({ visible, titleId }) => (
   <Fragment>
     <Heading className={styles.title} data-visible={visible} level={3} id={titleId}>
-      <DecoderText text="Hi there" start={visible} delay={500} />
+      <DecoderText text="Abang Obed" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I’m Obed, currently I live in Nigeria working part-time as a Mobile Developer & Security Engineer  at{' '}
-      <Link href="https://www.gigafro.com">Gigafro</Link>. My fields include Web & mobile developement, application security, devops(AWS,Azure & cloudfront), low level software & unreal-engine dev, arduino/hardware enthusiast, drone piloting, windows internals, photography & 3d visual effects. Being comfortable with code allows me to rapidly
-      prototype and validate experiences. If you’re interested what i do check out my portfolio page <Link href="/uses">click me(xss)</Link>.
-    </Text>
+   
+Abang 'obx' Obed is a Mobile Developer and Security Researcher at <Link href="https://www.gigafro.com">Gigafro</Link>. His work spans from software exploit development, hardware prototyping, developer operations and 3d composting. Currently pursuing a B.Tech in Cyber-Security Science, Abang has foundation in computer science, physiology, reverse engineering, chemistry, and cryptography.
+
+</Text>
+<Text className={styles.description} data-visible={visible} size="l" as="p">
+Abang's contributions to security research include discovering vulnerabilities, learning to bypass authorizated systems, building softwares and studying NSA code-breaker archives for advanced cryptographic concepts. 
+
+</Text>   
+<Text className={styles.description} data-visible={visible} size="l" as="p">
+  Notable achievements include:
+  <ul>
+    <li>Developing a <strong>Mobile C2 Framework</strong>.</li>
+    <li>Creating a <strong>Load Balancer C++ with gRPC</strong>.</li>
+    <li>Building a <strong>VM hypervisor using the QEMU library</strong>.</li>
+    <li>Developing a <strong>Chromium service worker extension in Node.js</strong>.</li>
+    <li>Simulated <strong> Matrix Computation with my AMD radeon DDR3</strong>.</li>
+    <li>AI Model Deployment on Edge Devices using<strong> Cloudfare</strong>.</li>
+    <li>Delivering <strong>six production-grade websites</strong>, an app and multiple SDKs for businesses.</li>
+    <li>Big Data ETL Pipeline for <strong>User Behavior Analysis on soccer games</strong>.</li>
+    <li>Blockchain powered Dapps for tracking<strong>Agricultural</strong>Items through an inventory.</li>
+    <li>Developing a <strong>3D Compositing</strong> pipeline for my short film.</li>
+    <li>Built a <strong>video stream</strong>server with <strong>rxJs,threejs & tailwind css</strong>.</li>
+    <li>Contributed to the setup of a quadcopter drone simulink <strong>model.</strong>.</li>
+    <li>Writing automation scripts for <strong>Blender, Houdini, After Effects, godot, and Unity</strong>.</li>
+    <li>Assisting in creating a driving simulation game with <strong>C#</strong>.</li>
+    <li>Authorization bypass <strong>on CodeSandbox(Traiged), IDOR on Coinhako(Needs more Info) .</strong> </li>
+
+  </ul>
+  <Link href="/articles">Find out more(pls)</Link>
+</Text>
+
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      In my spare time I like to practice hacking with ctfs, bug hunting, storyboard for my short movies , play FC25, and{' '}
-      <Link href="/projects/volkihar-knight">research on AGIs & ML</Link>. I’m always down for hearing
-      about new projects, so feel free to drop me a line.
+    In his spare time, Abang explores security researching, drone piloting, Windows internals, FC25 and unreal engine development. He also enjoys creating short films, hacking through CTFs, and researching AGI and machine learning.
+    {' '}
+    Feel free to reach out for collaborations or discussions @ <strong>hitme@obx0x3.tech</strong>
     </Text>
   </Fragment>
 );
@@ -98,3 +127,4 @@ export const whoami = ({ id, visible, sectionRef }) => {
     </Section>
   );
 };
+<Footer />
