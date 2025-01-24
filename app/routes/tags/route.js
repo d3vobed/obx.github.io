@@ -1,1 +1,1 @@
-export { tags as default, meta, action } from './tags';
+export { tags as default } from './tags';
