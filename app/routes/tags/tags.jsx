@@ -78,7 +78,7 @@ export const tags = () => {
   );
 };
 const tagKeywords = {
-  "applicationsecurity": ["web"],
+  "applicationsecurity": ["web, temu, browser, security, app"],
   "mobilewebsitedev": ["mobile", "website"],
   "lowlevelcodeexploit": ["exploit"],
   "hardware": ["hardware"],
@@ -88,8 +88,8 @@ const tagKeywords = {
   "vfx": ["visual effects"],
   "cloud": ["cloud"],
   "reversing": ["reverse engineering"],
-  "gaming": ["games"],
-  "ctfs": ["capture the flag"],
+  "gaming": ["cube", "game, HTB"],
+  "ctfs": ["HTB, Cube Madness"],
   "ai": ["artificial intelligence"],
   "web3": ["blockchain"],
   "research": ["research"],
