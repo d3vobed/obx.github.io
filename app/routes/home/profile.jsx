@@ -23,7 +23,7 @@ const ProfileText = ({ visible, titleId }) => (
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
       I’m Obed, currently I live in Nigeria working part-time as a Mobile Developer & Security Engineer  at{' '}
-      <Link href="https://www.gigafro.com">Gigafro</Link>. My fields include Web & mobile developement, application security, devops(AWS,Azure & cloudfront), low level software & unreal-engine dev, arduino/hardware enthusiast, drone piloting, windows internals, photography & 3d visual effects. Being comfortable with code allows me to rapidly
+      <Link href="https://www.gigafro.com">Gigafro</Link>. My fields include Web & mobile developement, application security, devops(AWS,Azure,VMware cloud,oracle & cloudflare), low level software & unreal-engine dev, arduino/hardware enthusiast, drone piloting, windows internals, photography & 3d visual effects. Being comfortable with code allows me to rapidly
       prototype and validate experiences. If you’re interested what i do check out my portfolio page <Link href="/whoami">click me(xss)</Link>.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
