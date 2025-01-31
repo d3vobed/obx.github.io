@@ -1,0 +1,55 @@
+---
+title: 'Hacking brave browser Leo models'
+abstract: Well if you have brave browser and don't know about their AI sidepanel, you suck!
+date: '2024-04-03'
+banner: /static/brave.png
+---
+
+
+## How it all started
+
+While going through the rabbit hole of trying to create an easily automated way to use fabric, burpsuite bambdas and ffpmeg(fpmeg😂) to all come together to help in filtering commands from burpsuite directly into the terminal well i guess i failed big time, maybe cause i'm the worst skid who's stuck in some java compile hell or i'm just hallucinating in the impossible. 
+
+![gif](/static/rabbit.gif)
+
+After trying my luck as usual, i stumbled on an hackerone research from hacktus,
+
+![hacktus](/static/hacktus.png)
+
+where he could train data to be poisoned via ASCII decoding whereby the AI could be manipulated into parroting the exact content of the decoded message, irrespective of its appropriateness or alignment with its normal behavior.
+
+![hacktus](/static/ascii.png)
+
+won't go deep into explaining as the report link is below 📓[link](https://hackerone.com/reports/2370955),
+
+ but i found a way to recreate this on a live endpoint that may be N/A or so, PS. Lemme know if it ever gets triaged :XD 
+
+## The waste of time
+
+I first taught to recreate this with some few popular and unpopular ai chatbots, i start with our omega chatgpt, 
+
+![gpt](/static/gpt.png)
+which as usual gaslights me that it needs more info when it's has the main info already. lol
+
+Tried claude, it immediately flagged this as a malicious prompt, 
+
+![claude](/static/claude.png)
+
+i moved on to gemini which honestly speaking should be thrown in the dumpster for real,
+![gemini](/static/gemini.gif)
+
+ it just converted everything to igbo, 
+
+![gemini](/static/gemini.png)
+wait igbo for fuck sakes, 
+
+## Finale
+
+Well i continued to try until i remembered i literally had a chatbot on my damn brave browser , i used the shortcut key ctrl + B and assessed the leo ai, 
+
+then i tried the Haiku model and i reduced the content lengths for my prompt to be 2k characters and it gave me the same output just as the report, but i won't be going deeper for youtube sakes, but you can check the report out and
+
+![brave](/static/braveb.png)
+
+And it really worked!. PS, if you try this on chatgpt it works for no good reasons and yes it won't be given a 200$ bounty.
+

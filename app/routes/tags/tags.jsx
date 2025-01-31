@@ -1,6 +1,5 @@
 import { Button } from '~/components/button';
 import { DecoderText } from '~/components/decoder-text';
-import { Divider } from '~/components/divider';
 import { Footer } from '~/components/footer';
 import { Heading } from '~/components/heading';
 import { Icon } from '~/components/icon';
@@ -14,8 +13,6 @@ import { useRef, useState } from 'react';
 import { cssProps, msToNum, numToMs } from '~/utils/style';
 import { baseMeta } from '~/utils/meta';
 import { Form, useActionData, useNavigation, useNavigate } from '@remix-run/react';
-import { json } from '@remix-run/cloudflare';
-import { SESClient, SendEmailCommand } from '@aws-sdk/client-ses';
 import styles from './tags.module.css';
 
 export const meta = () => {

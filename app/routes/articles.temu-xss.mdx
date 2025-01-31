@@ -7,31 +7,32 @@ banner: /static/hello-world-banner.jpg
 
 ## How it all started
 
-Back in 2022 I needed to find some bugs as i newly begun hunting and was eager to copy, spray or run any payload just to see an 
+Back in 2022 I needed to find some bugs as i newly begun hunting and was eager to copy, spray or run any payload, just to see an 
 'alert (1)'😂.
 
 ![gif](/static/inspiration.gif)
 
 ## The first pick
 
-Hackerone brought in Temu and it was being introduced to nigerian hackers, i decided started to testing for buisness logic, rate limiting and SQL, since it was looking fresh,
-welp their was nothing there for me(Unlucky asf), here's what i learnt from trying to get a bug from temu:
+Hackerone brought in Temu and it was introduced to nigerian hackers, i decided started to testing for buisness logic, rate limiting and SQL, since it was looking fresh.
+
+Welp, nothing was there for me.(Unlucky asf), but here's what i learnt from trying to get a bug from temu:
 ![Temu my money](/static/hello-world-banner.jpg)
 
 ## The waste of time
 
-- Their excessive use of captcha would make you give up, even when you try to dig the oauth it burns you down
-- Payment gateway was all a false positive with postmessage and csp rules fooling the hungry mind
-- Cart synchronization issues, the cart updated were not shown on websites if the payment was made on a phone (A bug esty or amazon would give you a solid $300 for, what a shame!)
-- Worst shipping trackers, it's just too fancy
+- Their excessive use of captcha would make you give up, even when you try to dig deeper into the oauth it burns you down.
+- The payment gateway was all a false positive with postmessage and csp rules fooling the hungry minds.
+- Cart synchronization issues, the cart updated were not shown on websites if the payment was made on a phone or any other devices*(race bug)* (A bug esty or amazon would give you a solid $300 for, what a shame!)
+- Worst shipping trackers, it's just too fancy.
 - Incorrect or broken product images, particularly if images do not match the item descriptions.
-- Malwarelized mobile app (i always thought so for no reasons😂)
+- Malwarelized mobile app (i always thought so for no reasons sorry😂).
 
 ## The final chapter
-The best and worst advice to give a bug hunter is to move on from a cool program when nothing is working out. I found a xss, i tried a lot of things but account takeovers didn't work pretty fine for me back then, so i tried the xss on carts too it worked but this time it was reflected on the mobile device. Won't disclose further. 
+The best and worst advice to give a bug hunter is to move on from a cool program when nothing is actually working out. I found a xss, i tried a lot of things but account takeovers didn't work pretty fine for me back then, so i tried the xss on carts too it worked but this time it was reflected on the mobile and other devices*(shokingly)*. Well i Won't disclose any further but i,
 ![Temu my money](/static/temu.png)
-Sent a report friday 😂, got an answer the evening a bit harsh but as usual i landed a N/A, i moved like everyone but i'm not happy because i couldn't get something off them. Well maybe next time!.
+sent a report on a friday 😂, got an answer in the evening and it was a bit harsh but as usual i landed a N/A, i moved on like everyone else, not happy because i couldn't get something off them. Well maybe next time!.
 
 ## Update: Feb 2024
 
-I think they've fixed some things but still haven't gotten a pay from temu yet on any past bugs.(Not XSS btw)
+I think they've fixed some things but still i haven't gotten a pay from temu yet on any past bugs.(Not XSS btw)

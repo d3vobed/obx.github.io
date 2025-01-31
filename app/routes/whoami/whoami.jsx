@@ -29,27 +29,27 @@ Abang 'obx' Obed is a Mobile Developer and Security Researcher at <Link href="ht
 
 </Text>
 <Text className={styles.description} data-visible={visible} size="l" as="p">
-Abang's contributions to security research include discovering vulnerabilities, learning to bypass authorizated systems, building softwares and studying NSA code-breaker archives for advanced cryptographic concepts. 
+Abang's contributions to computer research include discovering software vulnerabilities, learning to bypass authorizated networked systems, building softwares and studying NSA code-breaker archives for advanced cryptographic concepts. 
 
 </Text>   
 <Text className={styles.description} data-visible={visible} size="l" as="p">
-  Notable achievements include:
+  <em><b>Notable achievements include:</b></em>
   <ul>
     <li>Developing a <strong>Mobile C2 Framework</strong>.</li>
-    <li>Creating a <strong>Load Balancer C++ with gRPC</strong>.</li>
-    <li>Building a <strong>VM hypervisor using the QEMU library</strong>.</li>
-    <li>Developing a <strong>Chromium service worker extension in Node.js</strong>.</li>
+    <li>Created a <strong>Load Balancer C++ with gRPC</strong>.</li>
+    <li>Built a <strong>VM hypervisor using the QEMU library</strong>.</li>
+    <li>Developed a <strong>Chromium service worker extension in Node.js</strong>.</li>
     <li>Simulated <strong> Matrix Computation with my AMD radeon DDR3</strong>.</li>
     <li>AI Model Deployment on Edge Devices using<strong> Cloudfare</strong>.</li>
-    <li>Delivering <strong>six production-grade websites</strong>, an app and multiple SDKs for businesses.</li>
+    <li>Delivered <strong>six production-grade websites</strong>, an app and multiple SDKs for businesses.</li>
     <li>Big Data ETL Pipeline for <strong>User Behavior Analysis on soccer games</strong>.</li>
-    <li>Blockchain powered Dapps for tracking<strong>Agricultural</strong>Items through an inventory.</li>
-    <li>Developing a <strong>3D Compositing</strong> pipeline for my short film.</li>
-    <li>Built a <strong>video stream</strong>server with <strong>rxJs,threejs & tailwind css</strong>.</li>
-    <li>Contributed to the setup of a quadcopter drone simulink <strong>model.</strong>.</li>
+    <li>Blockchain powered Dapps for tracking <strong>Agricultural </strong>Items through an inventory.</li>
+    <li>Developing a <strong>3D Compositing & storyboard</strong> pipeline for my short film.</li>
+    <li>Built a <strong>video stream </strong>server with <strong>rxJs,threejs & tailwind css</strong>.</li>
+    <li>Contributed to the setup of a <strong> quadcopter drone simulink model.</strong>.</li>
     <li>Writing automation scripts for <strong>Blender, Houdini, After Effects, godot, and Unity</strong>.</li>
-    <li>Assisting in creating a driving simulation game with <strong>C#</strong>.</li>
-    <li>Authorization bypass <strong>on CodeSandbox(Traiged), IDOR on Coinhako(Needs more Info) .</strong> </li>
+    <li>Assisted in creating a driving simulation game with <strong>C#</strong>.</li>
+    <li>Authorization bypass on CodeSandbox<strong>(Traiged)</strong>, IDOR on Coinhako<strong>(Needs more Info) .</strong> </li>
 
   </ul>
   <Link href="/articles">Find out more(pls)</Link>
