@@ -40,10 +40,10 @@ import { media } from '~/utils/style';
 import { baseMeta } from '~/utils/meta';
 import styles from './slice.module.css';
 
-const title = 'Biomedical image collaboration';
+const title = 'Making my first animated movie';
 const description =
-  'This project involved designing a better way for biomedical educators and learners to annotate digital slides together.';
-const roles = ['User Research', 'UX Design', 'Interface Design'];
+  'This project would educate me through the entire process of creating an animated movie, from storyboarding to final render.';
+const roles = ['Story Boarding', 'Modelling Characters', 'Voice Acting', 'Rigging', 'Editing', 'Texturing', '2D Design'];
 
 export const meta = () => {
   return baseMeta({ title, description, prefix: 'Projects' });
@@ -64,7 +64,7 @@ export const Slice = () => {
         <ProjectHeader
           title={title}
           description={description}
-          url="https://www.best.edu.au/s/q2yjjvl7?data=8%404!9%4020303!10%40-15087&version=1"
+          url="https://r3syst.obx0x3.tech/stream"
           roles={roles}
         />
         <ProjectSection padding="top">
