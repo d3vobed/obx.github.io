@@ -1,1 +1,1 @@
-export { whoami as default } from './whoami';
+export { Whoami as default } from './whoami';

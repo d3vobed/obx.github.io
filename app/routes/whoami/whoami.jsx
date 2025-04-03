@@ -13,7 +13,7 @@ import { Transition } from '~/components/transition';
 import { Fragment, useState } from 'react';
 import { media } from '~/utils/style';
 import katakana from '../home/katakana.svg';
-import styles from './whoami.module.css';
+import './whoami.css';
 import { Footer } from '~/components/footer';
 
 
@@ -63,10 +63,10 @@ Abang's contributions to computer research include discovering software vulnerab
 
     <li>Assisted in creating a driving simulation game with <strong>C#</strong>.</li>
 
-    <li>Authorization bypass on CodeSandbox<strong>(Traiged)</strong </li>
+    <li>Authorization bypass on CodeSandbox<strong>(Traiged)</strong> </li>
 
   </ul>
-  <Link href="/articles">Find out more(pls)</Link>
+  <Link href="/articles">Find out more(pls)</Link> 
 </Text>
 
     <Text className={styles.description} data-visible={visible} size="l" as="p">
@@ -77,7 +77,7 @@ Abang's contributions to computer research include discovering software vulnerab
   </Fragment>
 );
 
-export const whoami = ({ id, visible, sectionRef }) => {
+export const Whoami = ({ id, visible, sectionRef }) => {
   const [focused, setFocused] = useState(false);
   const titleId = `${id}-title`;
 
