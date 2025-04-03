@@ -1,4 +1,5 @@
-name = "worker-name"
+# wrangler.toml
+name = 'obx'
 compatibility_date = "2025-04-03"
 
 [assets]
