@@ -2,8 +2,7 @@ name = "worker-name"
 compatibility_date = "2025-04-03"
 
 [assets]
-directory = "app/assets"
+directory = "public/"
 
-kv_namespaces = [
-  { id = "MY_KV", binding = "MY_KV" }
+
 ]
